@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KO Chance Calculator</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    KO CHANCE CALCULATOR
+    <div class="general container">
+        <div class="lbl">HP Stat:<input id="hp"></div>
+        <div class="buttons container">
+            <button class="remove" onclick="remove()">REMOVE SET</button>
+            <button class="add" onclick="add()">ADD SET</button>
+        </div>
+
+        <div class="sets container">
+            <div id="1">Set 1:<input class="rol"></div>
+            <div id="2">Set 2:<input class="rol"></div>
+        </div>
+
+        <div class="calculate container">
+            <button class="run" onclick="get_result()">CALCULATE</button>
+            <div id="error"></div>
+        </div>
+
+        <div class="result" id="ko">Chance of KO:</div>
+        <div class="result" id="tko">Amount of times KO:</div>
+        <div class="result" id="tsur">Amount of times Survive:</div>
+        <div class="result" id="tcomb">Total Combinations:</div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

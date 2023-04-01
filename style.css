@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Medium.ttf);
+}
+
+body{
+    font-family: Montserrat;
+    font-size: 35px;
+    margin:100px;
+    background-color:  rgb(5, 6, 45);
+    color: white;
+}
+
+.general.container{
+    font-size: 12pt;
+}
+
+
+.remove, .add{
+    font-family: Montserrat;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 30px;
+    Background: linear-gradient(144deg,#AF40FF, #5B42F3 50%, #00DDEB);
+}
+
+
+.run{
+    margin-top: 20px;
+    margin-bottom: 45px;
+    font-family: Montserrat;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 30px;
+    Background: linear-gradient(144deg,#AF40FF, #5B42F3 50%, #00DDEB);
+}
+
+input{
+    font-family: Montserrat;
+        padding-left: 7px;
+    width: 510px;
+    height: 30px;
+}
+
+.lbl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.buttons.container{
+    margin-bottom: 25px;
+}
+
+.sets.container div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    margin-top: 3px;
+}
+
+#hp{
+    width: 100px
+}
+
+#error{
+    margin-bottom: 10px;
+}
+
+.result{
+    margin-top:5px;
+}
