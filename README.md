@@ -2,4 +2,6 @@
 
 Allows to calculate cumulative damage in efficiently (up to thousands of combinations with depreciable delay) 
 
-Based on: https://cantsay.github.io/resources/ko-chance-calculator/
+Based on:
+- https://cantsay.github.io/resources/ko-chance-calculator/
+- https://github.com/DaWoblefet/KOChanceCalculator/
