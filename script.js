@@ -15,7 +15,7 @@ function getOccurrence(array, value) {
 function get_result(){
 
     document.querySelector('#error').innerText = '';
-    document.querySelector('#ko').innerText = 'Change of KO:';
+    document.querySelector('#ko').innerText = 'Chance of KO:';
     document.querySelector('#tko').innerText = 'Times KO:';
     document.querySelector('#tsur').innerText = 'Times Survive:';
     document.querySelector('#tcomb').innerText = 'Total Combinations:';
@@ -81,13 +81,13 @@ function get_result(){
         }
     }
 
-    document.querySelector('#ko').innerText = 'Change of KO: ' + ((pos / (pos + neg)) * 100) + '%';
+    document.querySelector('#ko').innerText = 'Chance of KO: ' + ((pos / (pos + neg)) * 100) + '%';
     document.querySelector('#tko').innerText = 'Times KO: ' + pos;
     document.querySelector('#tsur').innerText = 'Times Survive: ' + neg;
     document.querySelector('#tcomb').innerText = 'Total Combinations: ' + (pos+neg);
 
 
-//    console.log('Change of KO: ' + ((pos / (pos + neg)) * 100) + '%');
+//    console.log('Chance of KO: ' + ((pos / (pos + neg)) * 100) + '%');
 //    console.log('Times KO: ' + pos);
 //    console.log('Times Survive: ' + neg);
 //    console.log('Total Combinations: ' + (pos+neg));
@@ -129,3 +129,4 @@ function remove(){
 }
 
 //get_result()
+
